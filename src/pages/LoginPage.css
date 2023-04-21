@@ -1,0 +1,64 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+  background-image: url('../maarten-van-den-heuvel-EzH46XCDQRY-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-header {
+  margin-bottom: 2rem;
+}
+
+.login-block {
+  width: 400px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-block form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-block h2 {
+  margin-bottom: 1rem;
+}
+
+.login-block label {
+  margin-bottom: 0.5rem;
+}
+
+.login-block input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login-block button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-link {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
